@@ -29,7 +29,7 @@ public class Dek {
     void PushFront(int value) //добавление в начало очереди
     {
         data[head] = value;
-        if (--head < 0)
+        if (--head < 0)//
             head = size - 1;
     }
 
